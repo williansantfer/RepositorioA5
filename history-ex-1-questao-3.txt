@@ -1,0 +1,38 @@
+    1  clear
+    2  git config --global user.name "williansantfer"
+    3  git config --global user.email "willsantfer@gmail.com"
+    4  mkdir fusca
+    5  cd fusca
+    6  touch index.html
+    7  echo '<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>Aqui vai um título</h1>
+  </body>
+</html>' > index.html
+    8  git remote add origin https://github.com/williansantfer/RepositorioA5.git
+    9  git init
+   10  git add .
+   11  git commit -m "O primeiro commit"
+   12  git remote add origin https://github.com/williansantfer/RepositorioA5.git
+   13  git status
+   14  cd RepositorioA5
+   15  cd ..
+   16  cd RepositorioA5
+   17  cd fusca
+   18  git status
+   19  git push -u origin master
+   20  cd RepositorioA5
+   21  git clone https://github.com/williansantfer/RepositorioA5.git
+   22  cd RepositorioA5
+   23  mkdir imagens
+   24  git add .
+   25  git commit -m "Adicionei imagem do Garfield na pasta imagens"
+   26  git push
+   27  history
+   28  touch history-ex-1-questao-3.txt
+   29  history > history-ex-1-questao-3.txt
